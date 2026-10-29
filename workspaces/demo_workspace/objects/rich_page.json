@@ -200,13 +200,18 @@
       "type": "table"
     }
   ],
+  "cover": {
+    "id": "forest",
+    "type": "preset"
+  },
   "createdAt": "2026-10-29T00:00:00.000Z",
+  "icon": "⌨️",
   "id": "rich_page",
   "order": 0,
   "parentId": null,
   "schemaVersion": 1,
   "title": "一个叛逆的编辑器",
   "type": "page",
-  "updatedAt": "2026-10-29T00:00:00.000Z",
+  "updatedAt": "2026-10-29T10:31:17.973Z",
   "workspaceId": "demo_workspace"
 }
