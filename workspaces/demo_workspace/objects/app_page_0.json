@@ -1,0 +1,37 @@
+{
+  "appMode": true,
+  "blocks": [
+    {
+      "children": [],
+      "content": [],
+      "id": "ref_0",
+      "props": {
+        "databaseId": "db_0",
+        "viewId": "view_0"
+      },
+      "type": "databaseView"
+    },
+    {
+      "children": [],
+      "content": [],
+      "id": "slice_0",
+      "props": {
+        "autoHeight": false,
+        "height": 516,
+        "html": "<!doctype html><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:30px 26px;background:white;color:#292732;font:14px -apple-system,'PingFang SC',sans-serif}small{font-size:9px;letter-spacing:1.5px;color:#9994a6}h2{font-size:24px;margin:12px 0 26px} .big{font-size:46px;font-weight:650;letter-spacing:-2px}.label{color:#98929f;font-size:12px;margin:7px 0 20px}.chart{height:82px;display:flex;align-items:end;gap:13px;border-bottom:1px solid #eee;margin-bottom:10px;padding:0 4px}.chart i{flex:1;background:#7564b5;border-radius:4px 4px 0 0;opacity:.7}.days{display:flex;justify-content:space-around;font-size:9px;color:#aaa;margin-bottom:22px}.row{display:flex;align-items:center;gap:10px;padding:13px 0;border-bottom:1px solid #f1eff4}.row b{margin-left:auto;font-size:13px}.icon{width:29px;height:29px;background:#f7f5fa;border-radius:8px;display:grid;place-items:center}button{border:0;border-radius:8px;background:#7564b5;color:white;width:100%;padding:12px;margin-top:22px;font-size:13px}</style><small>MONEY, AT YOUR PACE</small><h2>轻记账</h2><div class=\"big\">¥128.00</div><div class=\"label\">今日支出</div><div class=\"chart\"><i style=\"height:35%\"></i><i style=\"height:55%\"></i><i style=\"height:43%\"></i><i style=\"height:78%\"></i><i style=\"height:50%\"></i><i style=\"height:98%\"></i><i style=\"height:66%\"></i></div><div class=\"days\"><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span></div><div id=\"rows\">正在读取 Tio 数据库…</div><button id=\"add\">＋ 记一笔</button><script>const db=tio.databases.get('db_0');async function refresh(){const {records}=await db.records.query({limit:100});document.getElementById('rows').innerHTML=records.map(r=>'<div class=\"row\"><span class=\"icon\">'+r.properties.icon+'</span>'+r.properties.name+'<b>'+r.properties.amount+'</b></div>').join('')}refresh();document.getElementById('add').onclick=async()=>{await db.records.create({name:'新记录',amount:0,icon:'＋'},{requestId:crypto.randomUUID()});refresh()};</script>",
+        "runtimeVersion": 1,
+        "title": "轻记账"
+      },
+      "type": "appSlice"
+    }
+  ],
+  "createdAt": "2026-10-29T00:00:00.000Z",
+  "id": "app_page_0",
+  "order": 1,
+  "parentId": null,
+  "schemaVersion": 1,
+  "title": "轻记账",
+  "type": "page",
+  "updatedAt": "2026-10-29T00:00:00.000Z",
+  "workspaceId": "demo_workspace"
+}

@@ -1,0 +1,15 @@
+{
+  "blocks": [],
+  "createdAt": "2026-10-29T00:00:00.000Z",
+  "databaseId": "db_1",
+  "id": "r_1_1",
+  "properties": {
+    "amount": 15,
+    "icon": "🏋",
+    "name": "力量训练"
+  },
+  "schemaVersion": 1,
+  "type": "record",
+  "updatedAt": "2026-10-29T00:00:00.000Z",
+  "workspaceId": "demo_workspace"
+}

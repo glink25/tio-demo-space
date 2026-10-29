@@ -1,0 +1,15 @@
+{
+  "blocks": [],
+  "createdAt": "2026-10-29T00:00:00.000Z",
+  "databaseId": "db_2",
+  "id": "r_2_1",
+  "properties": {
+    "amount": 650,
+    "icon": "🍱",
+    "name": "午餐 · 鸡肉饭"
+  },
+  "schemaVersion": 1,
+  "type": "record",
+  "updatedAt": "2026-10-29T00:00:00.000Z",
+  "workspaceId": "demo_workspace"
+}

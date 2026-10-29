@@ -1,0 +1,27 @@
+{
+  "createdAt": "2026-10-29T00:00:00.000Z",
+  "fields": [
+    {
+      "id": "name",
+      "name": "名称",
+      "type": "title"
+    },
+    {
+      "id": "amount",
+      "name": "数值",
+      "type": "number"
+    },
+    {
+      "id": "icon",
+      "name": "图标",
+      "type": "text"
+    }
+  ],
+  "id": "db_2",
+  "name": "热量手账",
+  "parentId": "app_page_2",
+  "schemaVersion": 1,
+  "type": "database",
+  "updatedAt": "2026-10-29T00:00:00.000Z",
+  "workspaceId": "demo_workspace"
+}

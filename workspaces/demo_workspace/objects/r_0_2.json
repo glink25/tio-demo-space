@@ -1,0 +1,15 @@
+{
+  "blocks": [],
+  "createdAt": "2026-10-29T00:00:00.000Z",
+  "databaseId": "db_0",
+  "id": "r_0_2",
+  "properties": {
+    "amount": 78,
+    "icon": "📚",
+    "name": "一本好书"
+  },
+  "schemaVersion": 1,
+  "type": "record",
+  "updatedAt": "2026-10-29T00:00:00.000Z",
+  "workspaceId": "demo_workspace"
+}

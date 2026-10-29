@@ -1,0 +1,27 @@
+{
+  "createdAt": "2026-10-29T00:00:00.000Z",
+  "fields": [
+    {
+      "id": "name",
+      "name": "名称",
+      "type": "title"
+    },
+    {
+      "id": "amount",
+      "name": "数值",
+      "type": "number"
+    },
+    {
+      "id": "icon",
+      "name": "图标",
+      "type": "text"
+    }
+  ],
+  "id": "db_0",
+  "name": "轻记账",
+  "parentId": "app_page_0",
+  "schemaVersion": 1,
+  "type": "database",
+  "updatedAt": "2026-10-29T00:00:00.000Z",
+  "workspaceId": "demo_workspace"
+}

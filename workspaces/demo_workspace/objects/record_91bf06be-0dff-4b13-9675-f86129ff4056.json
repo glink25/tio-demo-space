@@ -1,0 +1,16 @@
+{
+  "blocks": [],
+  "createdAt": "2026-10-29T10:20:59.233Z",
+  "databaseId": "db_0",
+  "deleted": true,
+  "id": "record_91bf06be-0dff-4b13-9675-f86129ff4056",
+  "properties": {
+    "amount": 0,
+    "icon": "＋",
+    "name": "新记录"
+  },
+  "schemaVersion": 1,
+  "type": "record",
+  "updatedAt": "2026-10-29T10:20:59.233Z",
+  "workspaceId": "demo_workspace"
+}

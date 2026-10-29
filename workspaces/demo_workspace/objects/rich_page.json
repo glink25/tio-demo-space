@@ -1,0 +1,212 @@
+{
+  "blocks": [
+    {
+      "children": [],
+      "content": [
+        {
+          "styles": {
+            "bold": true
+          },
+          "text": "写作不应该先选套餐。",
+          "type": "text"
+        },
+        {
+          "styles": {},
+          "text": " 打开一页空白，把想法留下来。",
+          "type": "text"
+        }
+      ],
+      "id": "intro",
+      "props": {},
+      "type": "paragraph"
+    },
+    {
+      "children": [],
+      "content": [
+        {
+          "styles": {},
+          "text": "“完全属于你”，从一份普通文档开始。",
+          "type": "text"
+        }
+      ],
+      "id": "quote",
+      "props": {},
+      "type": "quote"
+    },
+    {
+      "children": [],
+      "content": [
+        {
+          "styles": {},
+          "text": "从灵感到实现",
+          "type": "text"
+        }
+      ],
+      "id": "h",
+      "props": {
+        "level": 2
+      },
+      "type": "heading"
+    },
+    {
+      "children": [],
+      "content": [
+        {
+          "styles": {},
+          "text": "记录灵感，整理成自己的知识库",
+          "type": "text"
+        }
+      ],
+      "id": "b1",
+      "props": {
+        "checked": true
+      },
+      "type": "checkListItem"
+    },
+    {
+      "children": [],
+      "content": [
+        {
+          "styles": {},
+          "text": "让代码块和富文本住在一起",
+          "type": "text"
+        }
+      ],
+      "id": "b2",
+      "props": {
+        "checked": true
+      },
+      "type": "checkListItem"
+    },
+    {
+      "children": [],
+      "content": [
+        {
+          "styles": {},
+          "text": "把文档变成一个小应用",
+          "type": "text"
+        }
+      ],
+      "id": "b3",
+      "props": {
+        "checked": false
+      },
+      "type": "checkListItem"
+    },
+    {
+      "children": [],
+      "content": [
+        {
+          "styles": {},
+          "text": "const idea = \"属于自己的工具\";\nawait write(idea);\n// 然后，继续自由生长。",
+          "type": "text"
+        }
+      ],
+      "id": "code",
+      "props": {
+        "displayMode": "code",
+        "language": "javascript"
+      },
+      "type": "codeBlock"
+    },
+    {
+      "children": [],
+      "content": [
+        {
+          "styles": {},
+          "text": "下一站：",
+          "type": "text"
+        },
+        {
+          "content": [
+            {
+              "styles": {},
+              "text": "Tio on GitHub",
+              "type": "text"
+            }
+          ],
+          "href": "https://github.com/glink25/tio",
+          "type": "link"
+        },
+        {
+          "styles": {},
+          "text": "  ↗  开源，让每一种可能继续发生。",
+          "type": "text"
+        }
+      ],
+      "id": "link",
+      "props": {},
+      "type": "paragraph"
+    },
+    {
+      "children": [],
+      "content": {
+        "rows": [
+          {
+            "cells": [
+              [
+                {
+                  "styles": {},
+                  "text": "内容",
+                  "type": "text"
+                }
+              ],
+              [
+                {
+                  "styles": {},
+                  "text": "表达方式",
+                  "type": "text"
+                }
+              ],
+              [
+                {
+                  "styles": {},
+                  "text": "状态",
+                  "type": "text"
+                }
+              ]
+            ]
+          },
+          {
+            "cells": [
+              [
+                {
+                  "styles": {},
+                  "text": "一段想法",
+                  "type": "text"
+                }
+              ],
+              [
+                {
+                  "styles": {},
+                  "text": "富文本 / 双链",
+                  "type": "text"
+                }
+              ],
+              [
+                {
+                  "styles": {},
+                  "text": "已记录",
+                  "type": "text"
+                }
+              ]
+            ]
+          }
+        ],
+        "type": "tableContent"
+      },
+      "id": "tbl",
+      "props": {},
+      "type": "table"
+    }
+  ],
+  "createdAt": "2026-10-29T00:00:00.000Z",
+  "id": "rich_page",
+  "order": 0,
+  "parentId": null,
+  "schemaVersion": 1,
+  "title": "一个叛逆的编辑器",
+  "type": "page",
+  "updatedAt": "2026-10-29T00:00:00.000Z",
+  "workspaceId": "demo_workspace"
+}

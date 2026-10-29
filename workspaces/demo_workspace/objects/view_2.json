@@ -1,0 +1,17 @@
+{
+  "createdAt": "2026-10-29T00:00:00.000Z",
+  "databaseId": "db_2",
+  "filters": [],
+  "id": "view_2",
+  "layout": "table",
+  "name": "全部",
+  "schemaVersion": 1,
+  "sorts": [],
+  "type": "databaseView",
+  "updatedAt": "2026-10-29T00:00:00.000Z",
+  "visibleFieldIds": [
+    "name",
+    "amount"
+  ],
+  "workspaceId": "demo_workspace"
+}

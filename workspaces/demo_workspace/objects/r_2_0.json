@@ -1,0 +1,15 @@
+{
+  "blocks": [],
+  "createdAt": "2026-10-29T00:00:00.000Z",
+  "databaseId": "db_2",
+  "id": "r_2_0",
+  "properties": {
+    "amount": 360,
+    "icon": "🍞",
+    "name": "早餐 · 全麦与牛奶"
+  },
+  "schemaVersion": 1,
+  "type": "record",
+  "updatedAt": "2026-10-29T00:00:00.000Z",
+  "workspaceId": "demo_workspace"
+}
